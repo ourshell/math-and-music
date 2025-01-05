@@ -1,4 +1,4 @@
-# Near-Equal Temperament: A Complete Analysis
+# Near-Equal Temperament
 
 ## Introduction
 
