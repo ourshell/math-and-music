@@ -13,7 +13,7 @@ The ability to distinguish between two frequencies is not linear. For example, i
 To increase the **perceived** pitch by 50% (a factor of $$\sqrt{2} = 2^{\frac{1}{2}} = 2^{0.5}$$), the frequency must be calculated as:
 
 ```math
-\text{F} = 440 \times 2^{\frac{1}{2}} = 440 \times \sqrt{2} \approx 622 \text{Hz}.
+\text{F} = 440 \times 2^{\frac{1}{2}} = 440 \times \sqrt{2} \approx 622 \ \text{Hz}
 ```
 
 In ET, frequencies are calculated to divide the octave into 12 equally spaced tones (as perceived by the human ear). The ratio for each tone is:
