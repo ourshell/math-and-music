@@ -41,7 +41,7 @@ For example, in ET, a semitone (100 cents) is calculated as:
 \text{Pitch}_{\text{semitone}} 
 = 1200 \times \frac{\ln\Bigl(2^{\tfrac{1}{12}}\Bigr)}{\ln(2)} 
 = 1200 \times \frac{0.05776226504}{0.69314718056} 
-\approx 100 \text{cents}
+\approx 100 \ \text{cents}
 ```
 
 Similarly, a whole tone (200 cents) between two tones in ET can be shown by:
@@ -49,7 +49,7 @@ Similarly, a whole tone (200 cents) between two tones in ET can be shown by:
 ```math
 \text{Pitch}_{\text{whole-tone}} 
 = 1200 \times \frac{\ln\Bigl(2^{\tfrac{7}{12}} \div 2^{\tfrac{5}{12}}\Bigr)}{\ln(2)} 
-= 200 \text{cents}
+= 200 \ \text{cents}
 ```
 
 ---
@@ -59,13 +59,13 @@ Similarly, a whole tone (200 cents) between two tones in ET can be shown by:
 The **Just Noticeable Difference (JND)** defines the smallest pitch change perceivable by the human ear. In the range of 80 Hz to 500 Hz, JND is approximately **1 Hz** for complex sounds. For example:
 
 ```math
-\text{JND}_1 = 1200 \times \frac{\ln\Bigl(\tfrac{500}{499}\Bigr)}{\ln(2)} \approx 3.465935 \text{cents}
+\text{JND}_1 = 1200 \times \frac{\ln\Bigl(\tfrac{500}{499}\Bigr)}{\ln(2)} \approx 3.465935 \ \text{cents}
 ```
 
 For harmonic intervals, such as the [syntonic comma](https://en.wikipedia.org/wiki/Syntonic_comma) $$\bigl(\tfrac{81}{80}\bigr)$$, the difference is:
 
 ```math
-\text{JND}_2 = 1200 \times \frac{\ln\Bigl(\tfrac{81}{80}\Bigr)}{\ln(2)} \approx 21.5063 \text{cents}
+\text{JND}_2 = 1200 \times \frac{\ln\Bigl(\tfrac{81}{80}\Bigr)}{\ln(2)} \approx 21.5063 \ \text{cents}
 ```
 
 Pitch changes below **3.5 cents** are generally imperceptible, which becomes critical when comparing tuning systems.
@@ -92,7 +92,7 @@ The difference in cents is:
 
 ```math
 \text{Difference} = 1200 \times \frac{\ln\Bigl(\text{Ratio}_{\text{P5-ET}} \div \text{Ratio}_{\text{P5-JI}}\Bigr)}{\ln(2)}
-= 1200 \times \frac{\ln\Bigl(2^{\tfrac{7}{12}} \div \tfrac{3}{2}\Bigr)}{\ln(2)} \approx -1.955 \text{cents}
+= 1200 \times \frac{\ln\Bigl(2^{\tfrac{7}{12}} \div \tfrac{3}{2}\Bigr)}{\ln(2)} \approx -1.955 \ \text{cents}
 ```
 
 Even a 2-cent discrepancy can contribute to subtle beating in chords.
@@ -111,13 +111,13 @@ The deviation of M3 and P5 in ET compared to JI is calculated as follows:
 For the major third:
 
 ```math
-\text{Error}_{\text{M3}} = \Bigl[1200 \times \frac{\ln(5/4)}{\ln(2)}\Bigr] - 400 \approx -13.686 \text{cents}
+\text{Error}_{\text{M3}} = \Bigl[1200 \times \frac{\ln(5/4)}{\ln(2)}\Bigr] - 400 \approx -13.686 \ \text{cents}
 ```
 
 For the perfect fifth:
 
 ```math
-\text{Error}_{\text{P5}} = \Bigl[1200 \times \frac{\ln(3/2)}{\ln(2)}\Bigr] - 700 \approx +1.955 \text{cents}
+\text{Error}_{\text{P5}} = \Bigl[1200 \times \frac{\ln(3/2)}{\ln(2)}\Bigr] - 700 \approx +1.955 \ \text{cents}
 ```
 
 These deviations are critical for harmonic purity.
@@ -145,7 +145,7 @@ Compared to ET:
 The error in cents is:
 
 ```math
-\text{Error}_{\text{stack}} = 1200 \times \frac{\ln(1.334839)}{\ln(2)} - 500 \approx -0.0013 \text{cents}
+\text{Error}_{\text{stack}} = 1200 \times \frac{\ln(1.334839)}{\ln(2)} - 500 \approx -0.0013 \ \text{cents}
 ```
 
 ---
@@ -161,7 +161,7 @@ The stack can be **iteratively applied** to generate all 12 tones in the scale. 
 Ratios exceeding 2 are divided by 2 to stay within the octave. The worst cumulative error is:
 
 ```math
-\text{CE} = 11 \times (-0.0013) \approx -0.014 \text{cents}
+\text{CE} = 11 \times (-0.0013) \approx -0.014 \ \text{cents}
 ```
 
 ---
