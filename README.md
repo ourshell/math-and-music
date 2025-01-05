@@ -3,7 +3,7 @@
 ## Introduction
 This project explores mathematical concepts in music. Every topic here is a result of discussions with ChatGPT.
 
-## Near-Equal Temperament
+## [Near-Equal Temperament](https://github.com/ourshell/math-and-music/blob/main/net.md)
 Theoretical approach how to achieve equal intervals by a stack of just intervals.
 [Near-Equal Temperament](https://github.com/ourshell/math-and-music/blob/main/net.md)
 
