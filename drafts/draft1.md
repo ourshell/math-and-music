@@ -13,9 +13,9 @@
 ### 3D Wave Equation
 Sound in 3D is governed by the 3D wave equation:
 
-\[
+$$
 \frac{\partial^2 p}{\partial t^2} = c^2 \nabla^2 p,
-\]
+$$
 
 where:
 - \( \nabla^2 \) is the **3D Laplacian operator**:
