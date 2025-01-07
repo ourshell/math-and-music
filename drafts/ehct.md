@@ -38,11 +38,11 @@ Unlike classical “stacked-fifths” methods that fix one or two intervals exac
 
 We define a “cost function” $$C$$ that measures the difference between each just interval ratio and its EHCT approximation in cents, scaled by psychoacoustic importance:
 
-\[
+$$
 C 
 = \sum_{\text{interval } i} 
   w_i \, \bigl[\;\Delta_{\text{EHCT}}(i)\bigr]^2,
-\]
+$$
 
 where:
 - $$\Delta_{\text{EHCT}}(i)$$ is the cents difference for interval $$i$$ under the EHCT scale.  
@@ -52,10 +52,10 @@ where:
 
 Because pitch perception is **logarithmic**, we represent each note in the scale as:
 
-\[
+$$
 f_n 
 = f_0 \times 2^{\frac{x_n}{12}},
-\]
+$$
 
 where $$x_n$$ is the “scale degree” measured in **12-ET semitones**. In pure 12-ET, $$x_n = n$$ for $$n = 0,1,\dots,11$$. In EHCT, the $$x_n$$ are **not** integers but real-valued, chosen to keep the entire scale as close to a 12-tone division as possible while reducing the interval errors for the prime ratios.
 
@@ -67,11 +67,11 @@ where $$x_n$$ is the “scale degree” measured in **12-ET semitones**. In pure
 
 Let $$\{x_0, x_1, \dots, x_{11}\}$$ be the 12 scale degrees in EHCT, each in the range $$[0,12)$$. By definition, we set $$x_0 = 0$$ for the tonic. Then for intervals like a perfect fifth (3:2) between scale degrees $$x_i$$ and $$x_j$$:
 
-\[
+$$
 \Delta_{\text{EHCT}}\bigl(3:2, i, j\bigr) 
 = 1200 \times \frac{\ln\!\bigl(2^{\tfrac{x_j - x_i}{12}}\bigr) 
      - \ln\!\bigl(\tfrac{3}{2}\bigr)}{\ln(2)}.
-\]
+$$
 
 **Goal**: Find the set $$\{x_n\}$$ that **minimizes** the global cost function $$C$$. We subject the solution to the constraint that $$x_{n+12} = x_n + 12$$ for any expansions beyond the first octave, thus ensuring we “tile” the scale in a repeating 12-tone pattern.
 
@@ -97,11 +97,11 @@ Although 7-limit intervals (e.g., $$7/4$$, $$7/6$$) rarely appear in standard We
 
 Let us define the following weight distribution for demonstration:
 
-\[
+$$
 w_{3/2} = 1.0, 
 \quad w_{5/4} = 0.8, 
 \quad w_{7/4} = 0.4.
-\]
+$$
 
 - We strongly emphasize purity of the **perfect fifth** ($$3/2$$).  
 - We also care about a **good** major third ($$5/4$$).  
