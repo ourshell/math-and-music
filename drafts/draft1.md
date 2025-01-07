@@ -52,7 +52,7 @@ A simplified model for a 3D sound wave often begins with a **sine function** tha
 ```math
 p(\mathbf{r}, t) = A \sin\left(2 \pi f\, t - \mathbf{k} \cdot \mathbf{r}\right) \, e^{-\alpha t}
 ```
-- $$p(\mathbf{r}, t)$$ is the pressure fluctuation at position \(\mathbf{r} = (x, y, z)\) and time \(t\).  
+- $$p(\mathbf{r}, t)$$ is the pressure fluctuation at position $$\mathbf{r} = (x, y, z)$$ and time $$t$$.  
 - $$f$$ is the frequency of the sound.
 - $$\mathbf{k}$$ is the wavevector (indicating direction and wavelength in 3D).
 - $$\alpha$$ is a damping coefficient for exponential decay.
@@ -62,10 +62,10 @@ More rigorously, **sound in 3D** is governed by the **3D wave equation**:
 ```math
 \frac{\partial^2 p}{\partial t^2} = c^2 \nabla^2 p,
 ```
-where $$\nabla^2$$ is the 3D Laplacian operator, and \(c\) is the speed of sound.
+where $$\nabla^2$$ is the 3D Laplacian operator, and $$c$$ is the speed of sound.
 
 ### Moving from 3D to 4D: The Wave Equation
-Extending this to four spatial dimensions (label a fourth spatial axis \(w\)) involves using a **4D Laplacian**:
+Extending this to four spatial dimensions (label a fourth spatial axis $$w$$) involves using a **4D Laplacian**:
 ```math
 \nabla^2_{\text{4D}} = \frac{\partial^2}{\partial x^2}
                      + \frac{\partial^2}{\partial y^2}
@@ -86,7 +86,7 @@ Thus, the **4D wave equation** becomes:
 Here, $$W(x,y,z,w,t)$$ is the hypothetical displacement (or pressure) in four spatial dimensions over time.
 
 ### Key Differences: 3D vs. 4D
-1. **Extra Dimension in the Laplacian**: The jump from \(\nabla^2\) in 3D to \(\nabla^2_{\text{4D}}\) in 4D is conceptually straightforward (just add another partial derivative), but it drastically changes the solution space and potential wave interactions.
+1. **Extra Dimension in the Laplacian**: The jump from $$\nabla^2$$ in 3D to $$\nabla^2_{\text{4D}}$$ in 4D is conceptually straightforward (just add another partial derivative), but it drastically changes the solution space and potential wave interactions.
 2. **Richer Interference Patterns**: In 3D, two intersecting waves have finite ways to interfere, but in 4D, waves can intersect in more varied ways, potentially yielding more complex interference.
 3. **New Harmonic Structures**: A vibrating membrane in 3D has certain resonant modes; a “membrane” (or “hyper-surface”) in 4D can have entirely different mode shapes and harmonic frequencies.
 
@@ -96,11 +96,11 @@ Here, $$W(x,y,z,w,t)$$ is the hypothetical displacement (or pressure) in four sp
 
 ### Visualizing 4D Waves
 Humans cannot directly perceive a 4D reality; thus, **dimensional reduction** is crucial. One might imagine:
-- **Taking a 3D “slice”** of the 4D wave at a specific value of \(w\), analogous to taking a 2D slice of a 3D object.
-- **Time-Domain Flattening**: Even after we have a 3D slice, we need a **1D time-domain signal** to feed into speakers or headphones. Practically, we reduce 3D \(\to\) 2D or 1D waveforms.
+- **Taking a 3D “slice”** of the 4D wave at a specific value of $$w$$, analogous to taking a 2D slice of a 3D object.
+- **Time-Domain Flattening**: Even after we have a 3D slice, we need a **1D time-domain signal** to feed into speakers or headphones. Practically, we reduce 3D $$\to$$ 2D or 1D waveforms.
 
 ### Projection Approaches
-1. **Slicing**: Fix the value of the extra dimension \(w\). For example, set \(w = 0\) or vary it over time to create motion.
+1. **Slicing**: Fix the value of the extra dimension $$w$$. For example, set $$w = 0$$ or vary it over time to create motion.
 2. **Mathematical Transforms**:  
    - **Fourier Transforms** can analyze frequency components along each dimension.  
    - **Principal Component Analysis (PCA)** can compress the most “informative” parts of a high-dimensional dataset into a smaller set of dimensions.  
@@ -142,11 +142,11 @@ slice_2d = wave_3d[:, :, 0]
 print("Shape of slice_2d:", slice_2d.shape)  # (50, 50)
 ```
 
-1. **4D Array Creation**: We generate a 4D grid representing \((x, y, z, w)\).  
-2. **Wave Construction**: We define a simplistic 4D wave function \(\sin(X + Y + Z + W)\).  
+1. **4D Array Creation**: We generate a 4D grid representing $$(x, y, z, w)$$.  
+2. **Wave Construction**: We define a simplistic 4D wave function $$\sin(X + Y + Z + W)$$.  
 3. **Projection**:
-   - **Step 1**: Collapse the \(w\) dimension by averaging over it (or summing, or taking a slice).  
-   - **Step 2**: From the resulting 3D dataset, select a 2D slice along \(z\).  
+   - **Step 1**: Collapse the $$w$$ dimension by averaging over it (or summing, or taking a slice).  
+   - **Step 2**: From the resulting 3D dataset, select a 2D slice along $$z$$.  
 
 This method is a starting point for exploring the idea of “flattening” higher-dimensional data into forms we can visualize or transform into audio waveforms.
 
