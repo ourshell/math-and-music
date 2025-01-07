@@ -1,4 +1,3 @@
-```md
 # Exploring Higher-Dimensional Sound and Music Synthesis
 
 **Table of Contents**
@@ -218,6 +217,5 @@ Your contributions can help shape this exciting new frontier in sound and music 
 ## Acknowledgments
 This work draws inspiration from a variety of sources, including **theoretical physics, computer music research, and creative dialogue** with AI language models. Special thanks to all who are exploring what lies beyond the frontiers of three-dimensional sound.
 
-```md
 *Article prepared by ChatGPT-4.*
 ```
