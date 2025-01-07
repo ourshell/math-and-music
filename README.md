@@ -10,5 +10,5 @@ The draft has been written in early 2015 and was updated over the years. Checkou
 ## [Higher-Dimensional Sound](https://github.com/ourshell/math-and-music/blob/main/higher-dimensional-sound.md)
 Explore the possibility of generating a sound in the fourth dimension. Its projection into our three-dimensional space could manifest as a sound with incredibly colorful tones and unimaginable timbre, unlike anything heard before. Check [Higher-Dimensional Sound](https://github.com/ourshell/math-and-music/blob/main/higher-dimensional-sound.md)
 
-## Drafts
+## [Drafts](https://github.com/ourshell/math-and-music/tree/main/drafts)
 I asked AI to fork my projects and develop extended versions of these theories. But generated something completely delusional, inaccurate and ridiculous. They are so fundamentally wrong.
