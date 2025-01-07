@@ -70,8 +70,8 @@ Let $$\{x_0, x_1, \dots, x_{11}\}$$ be the 12 scale degrees in EHCT, each in the
 
 $$
 \Delta_{\text{EHCT}}\bigl(3:2, i, j\bigr) 
-= 1200 \times \frac{\ln\!\bigl(2^{\tfrac{x_j - x_i}{12}}\bigr) 
-     - \ln\!\bigl(\tfrac{3}{2}\bigr)}{\ln(2)}.
+= 1200 \times \frac{\ln\\bigl(2^{\tfrac{x_j - x_i}{12}}\bigr) 
+     - \ln\\bigl(\tfrac{3}{2}\bigr)}{\ln(2)}.
 $$
 
 **Goal**: Find the set $$\{x_n\}$$ that **minimizes** the global cost function $$C$$. We subject the solution to the constraint that $$x_{n+12} = x_n + 12$$ for any expansions beyond the first octave, thus ensuring we “tile” the scale in a repeating 12-tone pattern.
