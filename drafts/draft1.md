@@ -55,14 +55,14 @@ p(\mathbf{r}, t) = A \sin\left(2 \pi f\, t - \mathbf{k} \cdot \mathbf{r}\right) 
 - $$p(\mathbf{r}, t)$$ is the pressure fluctuation at position \(\mathbf{r} = (x, y, z)\) and time \(t\).  
 - $$f$$ is the frequency of the sound.
 - $$\mathbf{k}$$ is the wavevector (indicating direction and wavelength in 3D).
-- \( \alpha \) is a damping coefficient for exponential decay.
-- \( A \) is the amplitude.  
+- $$\alpha$$ is a damping coefficient for exponential decay.
+- $$A$$ is the amplitude.  
 
 More rigorously, **sound in 3D** is governed by the **3D wave equation**:
 ```math
 \frac{\partial^2 p}{\partial t^2} = c^2 \nabla^2 p,
 ```
-where \( \nabla^2 \) is the 3D Laplacian operator, and \(c\) is the speed of sound.
+where $$\nabla^2$$ is the 3D Laplacian operator, and \(c\) is the speed of sound.
 
 ### Moving from 3D to 4D: The Wave Equation
 Extending this to four spatial dimensions (label a fourth spatial axis \(w\)) involves using a **4D Laplacian**:
@@ -83,7 +83,7 @@ Thus, the **4D wave equation** becomes:
   + \frac{\partial^2 W}{\partial w^2}
 \right).
 ```
-Here, \( W(x,y,z,w,t) \) is the hypothetical displacement (or pressure) in four spatial dimensions over time.
+Here, $$W(x,y,z,w,t)$$ is the hypothetical displacement (or pressure) in four spatial dimensions over time.
 
 ### Key Differences: 3D vs. 4D
 1. **Extra Dimension in the Laplacian**: The jump from \(\nabla^2\) in 3D to \(\nabla^2_{\text{4D}}\) in 4D is conceptually straightforward (just add another partial derivative), but it drastically changes the solution space and potential wave interactions.
