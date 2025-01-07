@@ -53,8 +53,8 @@ A simplified model for a 3D sound wave often begins with a **sine function** tha
 p(\mathbf{r}, t) = A \sin\left(2 \pi f\, t - \mathbf{k} \cdot \mathbf{r}\right) \, e^{-\alpha t}
 ```
 - $$p(\mathbf{r}, t)$$ is the pressure fluctuation at position \(\mathbf{r} = (x, y, z)\) and time \(t\).  
-- \( f \) is the frequency of the sound.
-- \( \mathbf{k} \) is the wavevector (indicating direction and wavelength in 3D).
+- $$f$$ is the frequency of the sound.
+- $$\mathbf{k}$$ is the wavevector (indicating direction and wavelength in 3D).
 - \( \alpha \) is a damping coefficient for exponential decay.
 - \( A \) is the amplitude.  
 
