@@ -62,7 +62,7 @@
 \text{JND}_1 = 1200 \times \frac{\ln\Bigl(\tfrac{500}{499}\Bigr)}{\ln(2)} \approx 3.465935 \ \text{центов}
 ```
 
-Для гармонических интервалов, таких как [синтоническая комма](https://ru.wikipedia.org/wiki/Синтоническая_комма) $$\bigl(\tfrac{81}{80}\bigr)$$, разница составит:
+Для гармонических интервалов, таких как [syntonic comma](https://en.wikipedia.org/wiki/Syntonic_comma) $$\bigl(\tfrac{81}{80}\bigr)$$, разница составит:
 
 ```math
 \text{JND}_2 = 1200 \times \frac{\ln\Bigl(\tfrac{81}{80}\Bigr)}{\ln(2)} \approx 21.5063 \ \text{центов}
