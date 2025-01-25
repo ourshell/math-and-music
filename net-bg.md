@@ -62,7 +62,7 @@
 \text{JND}_1 = 1200 \times \frac{\ln\Bigl(\tfrac{500}{499}\Bigr)}{\ln(2)} \approx 3.465935 \ \text{цента}.
 ```
 
-За хармонични интервали, като [синтоничната кома](https://bg.wikipedia.org/wiki/Синтонична_кома) $$\bigl(\tfrac{81}{80}\bigr)$$, разликата е:
+За хармонични интервали, като [syntonic comma](https://en.wikipedia.org/wiki/Syntonic_comma) $$\bigl(\tfrac{81}{80}\bigr)$$, разликата е:
 
 ```math
 \text{JND}_2 = 1200 \times \frac{\ln\Bigl(\tfrac{81}{80}\Bigr)}{\ln(2)} \approx 21.5063 \ \text{цента}.
