@@ -1,3 +1,3 @@
-# Deep AI Warning
-These projects are forked versions by Chat GPT o1.
-They are completely delusional and fundamentally wrong.
+# AI Warning
+The draft projects are forked versions by Chat GPT o1.
+AI is missing the point and got delusional.
